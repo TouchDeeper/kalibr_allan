@@ -13,8 +13,11 @@ addpath('functions/allan_v3')
 %titlestr = 'Tango Yellowstone #1';
 %mat_path = '../data/bags/results_20171031T115123.mat';
 
-titlestr = 'ADIS16448 VI-Sensor';
-mat_path = '../data/bags/results_20180206T140217.mat';
+% titlestr = 'ADIS16448 VI-Sensor';
+% mat_path = '../data/bags/results_20180206T140217.mat';
+
+titlestr = 'Simulation IMU';
+mat_path = '../data/results_20190624T160730.mat';
 
 % Load the mat file (should load "data_imu" matrix)
 fprintf('=> opening the mat file.\n')
